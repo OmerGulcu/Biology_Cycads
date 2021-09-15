@@ -13,3 +13,49 @@
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
+
+* {
+  font-size: 14px;
+}
+
+body {
+  width: 210mm;
+  height: 297mm;
+  background-color: teal;
+  padding-left: 45mm;
+  padding-right: 45mm;
+  padding-top: 30mm;
+  padding-bottom: 30mm;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.header {
+  color: crimson;
+  font-size: 32px;
+}
+
+table, tr, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+td, th {
+  padding-left: 56px;
+  padding-right: 56px;
+}
+
+table, p {
+  margin-left: 405px;
+}
