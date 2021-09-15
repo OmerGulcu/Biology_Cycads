@@ -1,37 +1,43 @@
 @page {
   size: A4;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 } /* Sayfayı A4 Yapma */
 
 .header {
-  text-align: center;
-  font-size: 32px;
-  color: lightskyblue;
-  border: 4px solid lightseagreen;
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  font-family: 'Bona Nova', serif;
+  font-size: 46px;
+  color: MediumSeaGreen;
+  position: absolute;
+  left: 1%;
+  right: 1%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
 * {
   font-size: 14px;
 }
 
-body {
-  width: 210mm;
-  height: 297mm;
-  background-color: teal;
-  padding-left: 45mm;
-  padding-right: 45mm;
-  padding-top: 30mm;
-  padding-bottom: 30mm;
+.centerimg {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headerbackground {
+  height: 110px;
+  width: 100%;
 }
 
 table, tr, th, td {
   border: 2px solid black;
   border-collapse: collapse;
   padding: 5px;
+  text-align: center;
 }
 
 td, th {
