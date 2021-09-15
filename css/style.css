@@ -1,10 +1,10 @@
-
 @page {
   size: A4;
-} /* Sayfayı A4 Yapma (ctrl + p'ye basınca mis gibi A4 kağıda sığıyor :p) */
+} /* Sayfayı A4 Yapma */
 
 .header {
   text-align: center;
+  font-size: 32px;
   color: lightskyblue;
   border: 4px solid lightseagreen;
   width: 60%;
@@ -40,11 +40,6 @@ body {
   text-align: right;
 }
 
-.header {
-  color: crimson;
-  font-size: 32px;
-}
-
 table, tr, th, td {
   border: 2px solid black;
   border-collapse: collapse;
@@ -52,8 +47,8 @@ table, tr, th, td {
 }
 
 td, th {
-  padding-left: 56px;
-  padding-right: 56px;
+  padding-left: 58px;
+  padding-right: 58px;
 }
 
 table, p {
