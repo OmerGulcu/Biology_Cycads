@@ -1,9 +1,6 @@
 @page {
   size: A4;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin: -9px;
 } /* Sayfayı A4 Yapma */
 
 .header {
@@ -17,15 +14,28 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-}
-
-* {
   font-size: 14px;
+  background-image: url(../img/more-leaves.png);
+  background-repeat: repeat;
 }
 
-.centerimg {
-  margin-left: auto;
-  margin-right: auto;
+table, tr, th, td {
+  border: 3px solid black;
+  background-color: white;
+  border-collapse: collapse;
+  padding: 5px;
+  text-align: center;
+}
+
+th, td {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+img {
+  display: inline-block;
+  width: 10%;
+
 }
 
 .headerbackground {
@@ -43,20 +53,4 @@ body {
 
 .right {
   text-align: right;
-}
-
-table, tr, th, td {
-  border: 2px solid black;
-  border-collapse: collapse;
-  padding: 5px;
-  text-align: center;
-}
-
-td, th {
-  padding-left: 58px;
-  padding-right: 58px;
-}
-
-table, p {
-  margin-left: 405px;
 }
