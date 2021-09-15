@@ -1,4 +1,3 @@
-
 @page {
   size: A4;
   margin-left: 0px;
@@ -54,8 +53,8 @@ table, tr, th, td {
 }
 
 td, th {
-  padding-left: 56px;
-  padding-right: 56px;
+  padding-left: 58px;
+  padding-right: 58px;
 }
 
 table, p {
