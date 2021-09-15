@@ -1,8 +1,11 @@
 body {
-  width: 21cm;
-  height: 29.7cm;
+  width: 210mm;
+  height: 297mm;
   background-color: teal;
-  margin: 30mm 45mm 30mm 45mm;
+  padding-left: 45mm;
+  padding-right: 45mm;
+  padding-top: 30mm;
+  padding-bottom: 30mm;
 }
 
 .center {
