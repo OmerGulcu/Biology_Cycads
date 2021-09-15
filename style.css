@@ -1,3 +1,7 @@
+* {
+  font-size: 14px;
+}
+
 body {
   width: 210mm;
   height: 297mm;
@@ -22,6 +26,7 @@ body {
 
 .header {
   color: crimson;
+  font-size: 32px;
 }
 
 table, tr, th, td {
@@ -30,11 +35,11 @@ table, tr, th, td {
   padding: 5px;
 }
 
-table {
-  margin-left: 405px;
-}
-
 td, th {
   padding-left: 56px;
   padding-right: 56px;
+}
+
+table, p {
+  margin-left: 405px;
 }
