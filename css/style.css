@@ -1,5 +1,15 @@
+
+@page {
+  size: A4;
+} /* Sayfayı A4 Yapma (ctrl + p'ye basınca mis gibi A4 kağıda sığıyor :p) */
+
 .header {
   text-align: center;
-  color: red;
-  background-color: white;
+  color: lightskyblue;
+  border: 4px solid lightseagreen;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
