@@ -1,0 +1,37 @@
+body {
+  width: 21cm;
+  height: 29.7cm;
+  background-color: teal;
+  margin: 30mm 45mm 30mm 45mm;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.header {
+  color: crimson;
+}
+
+table, tr, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+table {
+  margin-left: 405px;
+}
+
+td, th {
+  padding-left: 56px;
+  padding-right: 56px;
+}
