@@ -18,8 +18,9 @@ table, tr, th, td {
   text-align: center;
 }
 
-.inline {
+.yazı1 {
   display: inline-flex;
+  background-color: white;
 }
 
 th, td {
