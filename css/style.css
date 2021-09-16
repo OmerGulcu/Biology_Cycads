@@ -19,10 +19,6 @@ table, tr, th, td {
   text-align: center;
 }
 
-footer {
-  background-color: lightgray;
-}
-
 th, td {
   padding-left: 30px;
   padding-right: 30px;
@@ -38,14 +34,14 @@ img {
   height: 175px;
 }
 
-p {
-  display: inline-flex;
-  background-color: white;
+footer {
+  background-color: cadetblue;
+  margin-bottom: -9px; /* WARNING: BU LINE'DAN EMİN DEĞİLİM SİLEBİLİRSİN SAÇMAYSA!!! */
 }
 
-h4 {
-  font-family: 'Bona Nova', serif;
-  text-align: center;
+.p {
+  display: inline-flex;
+  background-color: white;
 }
 
 .header {
@@ -89,4 +85,11 @@ h4 {
 .inline {
   display: inline-flex;
   height: 175px;
+}
+
+.footer {
+  margin-left: 17px;
+  margin-right: 9px;
+  font-size: 8px;
+  text-align: center;
 }
