@@ -38,9 +38,10 @@ table {
 
 .resimler img {
   display: inline-block;
-  margin-left: auto;
+  margin-left: 9px;
   margin-right: auto;
   height: 175px;
+  padding-right: 3px;
 }
 
 .leftmargin {
