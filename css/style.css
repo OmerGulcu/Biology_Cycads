@@ -85,3 +85,8 @@ h4 {
 .bold {
   font-weight: bold;
 }
+
+.inline {
+  display: inline-flex;
+  height: 175px;
+}
