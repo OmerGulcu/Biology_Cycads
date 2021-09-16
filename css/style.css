@@ -3,15 +3,6 @@
   margin: -9px;
 } /* Sayfayı A4 Yapma */
 
-.header {
-  font-family: 'Bona Nova', serif;
-  font-size: 46px;
-  color: MediumSeaGreen;
-  position: absolute;
-  left: 1%;
-  right: 1%;
-}
-
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -34,8 +25,24 @@ th, td {
 
 img {
   display: inline-block;
-  width: 10%;
+  height: 296px;
+}
 
+.header {
+  font-family: 'Bona Nova', serif;
+  font-size: 46px;
+  color: MediumSeaGreen;
+  position: absolute;
+  left: 1%;
+  right: 1%;
+}
+
+.leftmargin {
+  margin-left: 9px;
+}
+
+.rightmargin {
+  margin-right: 9px;
 }
 
 .headerbackground {
