@@ -30,7 +30,7 @@ th, td {
 
 table {
   margin-bottom: 9px;
-  display: inline-flex;
+  display: inline-table;
 }
 
 img {
