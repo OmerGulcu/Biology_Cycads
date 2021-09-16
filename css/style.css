@@ -23,9 +23,13 @@ th, td {
   padding-right: 30px;
 }
 
+table {
+  margin-bottom: 9px;
+}
+
 img {
   display: inline-block;
-  height: 296px;
+  height: 175px;
 }
 
 .header {
