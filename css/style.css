@@ -27,11 +27,6 @@ table {
   margin-bottom: 9px;
 }
 
-img {
-  display: inline-block;
-  height: 175px;
-}
-
 .header {
   font-family: 'Bona Nova', serif;
   font-size: 46px;
@@ -39,6 +34,13 @@ img {
   position: absolute;
   left: 1%;
   right: 1%;
+}
+
+.resimler img {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 175px;
 }
 
 .leftmargin {
