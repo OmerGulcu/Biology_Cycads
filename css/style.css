@@ -58,12 +58,12 @@ h4 {
 }
 
 .leftmargin {
-  margin-left: 9px;
+  margin-left: 17px;
 }
 
-.rightmargin {
+/* .rightmargin {
   margin-right: 9px;
-}
+} */
 
 .headerbackground {
   height: 110px;
