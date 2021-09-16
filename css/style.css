@@ -61,6 +61,10 @@ footer {
   margin-right: 9px;
 }
 
+.topmargin {
+  margin-top: 14px;
+}
+
 .flex {
   display: flex;
 }
@@ -96,6 +100,6 @@ footer {
 .footer {
   margin-left: 17px;
   margin-right: 9px;
-  font-size: 8px;
+  font-size: 10px;
   text-align: center;
 }
