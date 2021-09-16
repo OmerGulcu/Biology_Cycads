@@ -18,9 +18,8 @@ table, tr, th, td {
   text-align: center;
 }
 
-.yazı1 {
-  display: inline-flex;
-  background-color: white;
+footer {
+  background-color: lightgray;
 }
 
 th, td {
@@ -36,6 +35,11 @@ table {
 img {
   display: inline-block;
   height: 175px;
+}
+
+h4 {
+  font-family: 'Bona Nova', serif;
+  text-align: center;
 }
 
 .header {
@@ -58,6 +62,11 @@ img {
 .headerbackground {
   height: 110px;
   width: 100%;
+}
+
+.yazı1 {
+  display: inline-flex;
+  background-color: white;
 }
 
 .center {
