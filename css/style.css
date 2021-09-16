@@ -61,6 +61,10 @@ footer {
   margin-right: 9px;
 }
 
+.flex {
+  display: flex;
+}
+
 .headerbackground {
   height: 110px;
   width: 100%;
@@ -84,7 +88,9 @@ footer {
 
 .inline {
   display: inline-flex;
+  position: relative;
   height: 175px;
+  padding-left: 3px;
 }
 
 .footer {
