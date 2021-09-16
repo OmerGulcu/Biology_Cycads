@@ -8,6 +8,7 @@ body {
   font-size: 14px;
   background-image: url(../img/more-leaves.png);
   background-repeat: repeat;
+  margin: 0px;
 }
 
 table, tr, th, td {
@@ -29,7 +30,7 @@ th, td {
 
 table {
   margin-bottom: 9px;
-  display: inline-flex;
+  display: inline-table;
 }
 
 img {
@@ -37,10 +38,14 @@ img {
   height: 175px;
 }
 
+p {
+  display: inline-flex;
+  background-color: white;
+}
+
 h4 {
   font-family: 'Bona Nova', serif;
   text-align: center;
-}
 
 .header {
   font-family: 'Bona Nova', serif;
