@@ -18,6 +18,10 @@ table, tr, th, td {
   text-align: center;
 }
 
+.inline {
+  display: inline-flex;
+}
+
 th, td {
   padding-left: 30px;
   padding-right: 30px;
@@ -25,6 +29,7 @@ th, td {
 
 table {
   margin-bottom: 9px;
+  display: inline-flex;
 }
 
 img {
